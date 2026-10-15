@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "rSi8GHeYb/w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.UI\\SolutionComponentsAnalyzer.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\microsoft.crmsdk.coreassemblies\\9.0.2.59\\microsoft.crmsdk.coreassemblies.9.0.2.59.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.servicemodel.http\\4.10.3\\system.servicemodel.http.4.10.3.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.servicemodel.primitives\\4.10.3\\system.servicemodel.primitives.4.10.3.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

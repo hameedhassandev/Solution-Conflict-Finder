@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.UI\\SolutionComponentsAnalyzer.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.Core\\SolutionComponentsAnalyzer.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.Core\\SolutionComponentsAnalyzer.Core.csproj",
+        "projectName": "SolutionComponentsAnalyzer.Core",
+        "projectPath": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.Core\\SolutionComponentsAnalyzer.Core.csproj",
+        "packagesPath": "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hameed.Hassan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CrmSdk.CoreAssemblies": {
+              "target": "Package",
+              "version": "[9.0.2.59, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.IO.Compression.ZipFile": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.UI\\SolutionComponentsAnalyzer.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.UI\\SolutionComponentsAnalyzer.UI.csproj",
+        "projectName": "SolutionComponentsAnalyzer.UI",
+        "projectPath": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.UI\\SolutionComponentsAnalyzer.UI.csproj",
+        "packagesPath": "C:\\Users\\Hameed.Hassan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hameed.Hassan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.Core\\SolutionComponentsAnalyzer.Core.csproj": {
+                "projectPath": "C:\\Users\\Hameed.Hassan\\source\\repos\\SolutionComponentsAnalyzer\\SolutionComponentsAnalyzer.Core\\SolutionComponentsAnalyzer.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.CrmSdk.CoreAssemblies": {
+              "target": "Package",
+              "version": "[9.0.2.59, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

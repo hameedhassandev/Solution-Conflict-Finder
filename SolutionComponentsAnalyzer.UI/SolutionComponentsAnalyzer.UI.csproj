@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Shareable WinForms DLL: contains the forms/controls. Any host (exe, XrmToolBox plugin) can open it. -->
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SolutionComponentsAnalyzer.UI</RootNamespace>
+    <AssemblyName>SolutionComponentsAnalyzer.UI</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- same SDK version your Core project and Test console already use -->
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.59" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SolutionComponentsAnalyzer.Core\SolutionComponentsAnalyzer.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- same framework references your Test console project uses, plus WinForms -->
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+</Project>
