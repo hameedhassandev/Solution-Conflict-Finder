@@ -8,8 +8,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionComponentsAnalyzer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionComponentsAnalyzer.Desktop", "SolutionComponentsAnalyzer.Desktop\SolutionComponentsAnalyzer.Desktop.csproj", "{CC9C5D9A-7FE0-8E32-EA01-8E69199995D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionComponentsAnalyzer.Test", "SolutionComponentsAnalyzer.Test\SolutionComponentsAnalyzer.Test.csproj", "{A373854C-1657-4839-B558-6688813E32E9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		publish.ps1 = publish.ps1
@@ -33,10 +31,6 @@ Global
 		{CC9C5D9A-7FE0-8E32-EA01-8E69199995D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC9C5D9A-7FE0-8E32-EA01-8E69199995D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC9C5D9A-7FE0-8E32-EA01-8E69199995D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A373854C-1657-4839-B558-6688813E32E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A373854C-1657-4839-B558-6688813E32E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A373854C-1657-4839-B558-6688813E32E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A373854C-1657-4839-B558-6688813E32E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
