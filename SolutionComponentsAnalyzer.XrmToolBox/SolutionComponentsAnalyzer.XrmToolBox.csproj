@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- XrmToolBox plugin. Has its OWN UI (no reference to the desktop UI project). Only the Core library is shared. -->
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SolutionComponentsAnalyzer.XrmToolBox</RootNamespace>
+    <AssemblyName>SolutionComponentsAnalyzer.XrmToolBox</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+
+    <!-- XrmToolBox convention: 1.YYYY.M.revision. The NuGet package version MUST equal this (see Package\pack.ps1). -->
+    <Version>1.2026.10.1</Version>
+    <Authors>Hameed Hassan</Authors>
+    <Product>Solution Conflict Finder</Product>
+    <Description>Find what a solution import will overwrite.</Description>
+
+    <!-- After every build, copy the plugin DLLs into XrmToolBox's Plugins folder (close XrmToolBox first).
+         Turn off with:  dotnet build -p:DeployToXrmToolBox=false -->
+    <DeployToXrmToolBox Condition="'$(DeployToXrmToolBox)' == ''">true</DeployToXrmToolBox>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- brings the XrmToolBox references (PluginControlBase, ConnectionDetail, ...). Update to the latest version on nuget.org if you like. -->
+    <PackageReference Include="XrmToolBoxPackage" Version="1.2025.10.74" />
+	<PackageReference Include="MscrmTools.Xrm.Connection" Version="1.2025.9.64" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SolutionComponentsAnalyzer.Core\SolutionComponentsAnalyzer.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+
+  <Target Name="DeployToXrmToolBoxPlugins" AfterTargets="Build" Condition="'$(DeployToXrmToolBox)' == 'true'">
+    <PropertyGroup>
+      <PluginsDir>$(APPDATA)\MscrmTools\XrmToolBox\Plugins</PluginsDir>
+    </PropertyGroup>
+    <ItemGroup>
+      <!-- same layout as the NuGet package: tool DLL in Plugins, our own dependency in a folder named like the tool DLL.
+           Never copy Microsoft.Xrm.Sdk.dll: XrmToolBox already provides it. -->
+      <PluginFile Include="$(OutDir)SolutionComponentsAnalyzer.XrmToolBox.dll" />
+      <DependencyFile Include="$(OutDir)SolutionComponentsAnalyzer.Core.dll" />
+    </ItemGroup>
+    <MakeDir Directories="$(PluginsDir);$(PluginsDir)\SolutionComponentsAnalyzer.XrmToolBox" />
+    <Copy SourceFiles="@(PluginFile)" DestinationFolder="$(PluginsDir)" ContinueOnError="false" />
+    <Copy SourceFiles="@(DependencyFile)" DestinationFolder="$(PluginsDir)\SolutionComponentsAnalyzer.XrmToolBox" ContinueOnError="false" />
+    <Message Importance="high" Text="Plugin copied to $(PluginsDir) - start XrmToolBox and open 'Solution Conflict Finder'." />
+  </Target>
+
+</Project>

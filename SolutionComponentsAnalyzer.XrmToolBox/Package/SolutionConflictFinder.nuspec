@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <!-- values written as $name$ are filled in by pack.ps1 -->
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Solution Conflict Finder</title>
+    <authors>Hameed Hassan</authors>
+    <owners>Hameed Hassan</owners>
+
+    <!-- REQUIRED by the XrmToolBox Tool Library checklist: project URL + icon URL.
+         Replace YOUR-USER/YOUR-REPO with your real GitHub repository (upload icon.png there). -->
+    <projectUrl>https://github.com/YOUR-USER/YOUR-REPO</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/YOUR-USER/YOUR-REPO/main/icon.png</iconUrl>
+    <icon>images\icon.png</icon>
+
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <summary>Find what a solution import will overwrite.</summary>
+    <description>Compare two Dynamics 365 / Dataverse solutions (same or different environments) before you import. Shows conflicts, components that will be added, and components that exist only in the current environment for forms, views, fields, web resources, plugins, workflows and BPFs.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright (c) Hameed Hassan</copyright>
+
+    <!-- The FIRST tag must start with XrmToolBox and must not be only "XrmToolBox" -->
+    <tags>XrmToolBox SolutionConflictFinder Dataverse Dynamics365 Solution Compare</tags>
+
+    <dependencies>
+      <!-- the HOST package "XrmToolBox", not "XrmToolBoxPackage" -->
+      <dependency id="XrmToolBox" version="$xtb$" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <!-- Only our files. NO Microsoft.Xrm.Sdk / CRM SDK DLLs: XrmToolBox already has them. -->
+    <file src="$bin$\SolutionComponentsAnalyzer.XrmToolBox.dll" target="lib\net48\Plugins" />
+    <file src="$bin$\SolutionComponentsAnalyzer.Core.dll" target="lib\net48\Plugins\SolutionComponentsAnalyzer.XrmToolBox" />
+    <file src="$here$\icon.png" target="images\" />
+  </files>
+</package>
