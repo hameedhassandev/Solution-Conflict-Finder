@@ -7,7 +7,7 @@ namespace SolutionComponentsAnalyzer.XrmToolBox
     [Export(typeof(IXrmToolBoxPlugin)),
      ExportMetadata("Name", "Solution Conflict Finder"),
      ExportMetadata("Description", "Compare solutions across environments and review conflicts before you import."),
-     ExportMetadata("BackgroundColor", "Gray"),
+     ExportMetadata("BackgroundColor", "White"),
      ExportMetadata("PrimaryFontColor", "Black"),
      ExportMetadata("SecondaryFontColor", "DimGray"),
      ExportMetadata("SmallImageBase64", PluginIcons.Small),
