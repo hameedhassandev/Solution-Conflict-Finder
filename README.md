@@ -1,16 +1,5 @@
 ﻿# Solution Conflict Finder
 
-## Install
-1. Extract this zip INTO your `project_code` folder, next to `SolutionComponentsAnalyzer` (Core):
-
-       project_code\
-         SolutionComponentsAnalyzer.Core\            <- Core (already there)
-         SolutionComponentsAnalyzer.UI\         <- new: the shareable WinForms DLL
-         SolutionComponentsAnalyzer.Desktop\    <- new: the .exe
-
-2. Visual Studio: right-click the solution > Add > Existing Project, add both new .csproj files.
-3. Right-click `SolutionComponentsAnalyzer.Desktop` > Set as Startup Project. Press F5.
-
 ## Share it (one command)
 Copy `publish.ps1` to the `project_code` folder (next to the Core folder), then in PowerShell:
 
