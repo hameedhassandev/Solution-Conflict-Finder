@@ -1,4 +1,5 @@
 ﻿# Solution Conflict Finder
+<img width="128" height="128" alt="icon" src="https://github.com/user-attachments/assets/0d2eec5c-2aaf-432e-91c4-e7028206557a" />
 
 ## Share it (one command)
 Copy `publish.ps1` to the `project_code` folder (next to the Core folder), then in PowerShell:
