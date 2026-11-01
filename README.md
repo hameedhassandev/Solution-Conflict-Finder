@@ -184,7 +184,7 @@ The tool only uses read operations (`Retrieve`, `RetrieveMultiple`, and metadata
 ## Project structure
 
 ```
-SolutionComponentsAnalyzer/                       Core library (netstandard2.0): the comparison engine
+SolutionComponentsAnalyzer.Core/                  Core library (netstandard2.0): the comparison engine
     Models/                                       SolutionDefinition, Difference, ComparisonResult, ...
     Comparers/                                    ComponentComparers, XML normalizer
     Providers/                                    ISolutionProvider, DataverseSolutionProvider
@@ -194,7 +194,6 @@ SolutionComponentsAnalyzer.UI/                    WinForms UI library for the de
 SolutionComponentsAnalyzer.Desktop/               Desktop host: SolutionConflictFinder.exe (net48)
 SolutionComponentsAnalyzer.XrmToolBox/            XrmToolBox plugin with its own UI (net48)
     Package/                                      nuspec, icon and pack.ps1 for the Tool Library
-SolutionComponentsAnalyzer.Test/                  Console harness used during development
 publish.ps1                                       Builds and zips the desktop app for sharing
 ```
 
