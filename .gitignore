@@ -3,3 +3,5 @@ bin/
 obj/
 *.user
 *.suo
+/publish.ps1
+/SolutionComponentsAnalyzer.XrmToolBox/Package/SolutionConflictFinder.nuspec
