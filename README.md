@@ -49,7 +49,9 @@ Throughout the tool:
 ## Screenshots
 
 <!-- Add your own screenshots to docs/images and keep these lines. -->
-<img width="1600" height="841" alt="image1" src="https://github.com/user-attachments/assets/f4b263a8-31a8-4e8c-938e-956565e59d16" />
+![Screenshot 1](https://github.com/user-attachments/assets/f4b263a8-31a8-4e8c-938e-956565e59d16)
+![Screenshot 2](https://github.com/user-attachments/assets/3fcaff29-07a1-4aa5-961e-b9fd75f81c7c)
+show image
 <img width="1600" height="842" alt="image2" src="https://github.com/user-attachments/assets/3fcaff29-07a1-4aa5-961e-b9fd75f81c7c" />
 <img width="1600" height="819" alt="image3" src="https://github.com/user-attachments/assets/162fdc1d-0e84-4102-b58d-44297fdf39b5" />
 <img width="1600" height="817" alt="image4" src="https://github.com/user-attachments/assets/6e3b13e5-6ac7-448c-b585-159624e60881" />
