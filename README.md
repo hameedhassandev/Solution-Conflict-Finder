@@ -168,8 +168,6 @@ SolutionComponentsAnalyzer.Core/                  Core library (netstandard2.0):
 SolutionComponentsAnalyzer.UI/                    WinForms UI library for the desktop app (net48)
 SolutionComponentsAnalyzer.Desktop/               Desktop host: SolutionConflictFinder.exe (net48)
 SolutionComponentsAnalyzer.XrmToolBox/            XrmToolBox plugin with its own UI (net48)
-    Package/                                      nuspec, icon and pack.ps1 for the Tool Library
-publish.ps1                                       Builds and zips the desktop app for sharing
 ```
 
 The XrmToolBox plugin deliberately has its **own copy** of the results screen and does not reference the desktop UI project. Only the Core library is shared. A change to the results tables therefore has to be made in both UI projects, while a change to the comparison logic is made once, in Core.
@@ -180,7 +178,7 @@ The XrmToolBox plugin deliberately has its **own copy** of the results screen an
 
 **Prerequisites**
 
-- Visual Studio 2019 or 2022 with the **.NET desktop development** workload
+- Visual Studio 2019 or 2022 
 - .NET Framework 4.8 Developer Pack
 - .NET SDK (for the `dotnet build` commands in the scripts)
 
@@ -214,7 +212,6 @@ cd SolutionComponentsAnalyzer.XrmToolBox\Package
 - **Field scope.** A field is included when it was added to the solution individually, or when its entity was added with all subcomponents and the field is custom.
 - **High-level for some types.** Reports, site maps, apps, environment variables and similar components are compared by content hash or flagged for manual review, not in detail. Ribbon and command bar customizations are flagged for review only.
 - **Environment variable values** can differ on purpose between environments. They are compared anyway, because importing a value overwrites the current one.
-- **Desktop sign-in.** The desktop app supports user name and password only. Use the XrmToolBox plugin for MFA or OAuth environments.
 - **Large solutions** take time, because every component is read individually.
 
 ---
