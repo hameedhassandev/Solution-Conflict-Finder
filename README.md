@@ -49,13 +49,14 @@ Throughout the tool:
 ## Screenshots
 
 <!-- Add your own screenshots to docs/images and keep these lines. -->
-<img width="1919" height="968" alt="Screenshot 2026-11-01 071149" src="https://github.com/user-attachments/assets/0efc3d6c-05cb-46c4-ac65-b96e988d4fcd" />
+<img width="1600" height="841" alt="image1" src="https://github.com/user-attachments/assets/f4b263a8-31a8-4e8c-938e-956565e59d16" />
+<img width="1600" height="842" alt="image2" src="https://github.com/user-attachments/assets/3fcaff29-07a1-4aa5-961e-b9fd75f81c7c" />
+<img width="1600" height="819" alt="image3" src="https://github.com/user-attachments/assets/162fdc1d-0e84-4102-b58d-44297fdf39b5" />
+<img width="1600" height="817" alt="image4" src="https://github.com/user-attachments/assets/6e3b13e5-6ac7-448c-b585-159624e60881" />
+<img width="1600" height="755" alt="image5" src="https://github.com/user-attachments/assets/07c97df6-4acc-4e68-8c73-00e2be554b43" />
+<img width="1600" height="822" alt="image6" src="https://github.com/user-attachments/assets/5ebf33f4-ee8b-496a-a420-5000030d3714" />
+<img width="1600" height="852" alt="image7" src="https://github.com/user-attachments/assets/9c13f453-85c9-4d2a-8857-727401552a44" />
 
-<img width="1919" height="1006" alt="Screenshot 2026-10-14 121736" src="https://github.com/user-attachments/assets/94f306d0-9543-4bf0-a295-fed0e19d49df" />
-
-<img width="1919" height="1009" alt="Screenshot 2026-10-14 121750" src="https://github.com/user-attachments/assets/6c1cb77c-26e4-4ad4-aeab-7dd272e73544" />
-
-<img width="1919" height="1007" alt="Screenshot 2026-10-14 121811" src="https://github.com/user-attachments/assets/8c9ab17b-4f85-4491-bb47-5e6b55a46971" />
 
 ---
 
