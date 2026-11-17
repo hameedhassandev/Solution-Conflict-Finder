@@ -45,6 +45,7 @@ Throughout the tool:
 ## Screenshots
 
 <!-- Add your own screenshots to docs/images and keep these lines. -->
+https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image1.jpg
 ![Screenshot 1](https://github.com/user-attachments/assets/f4b263a8-31a8-4e8c-938e-956565e59d16)
 ![Screenshot 2](https://github.com/user-attachments/assets/3fcaff29-07a1-4aa5-961e-b9fd75f81c7c)
 ![Screenshot 3](https://github.com/user-attachments/assets/162fdc1d-0e84-4102-b58d-44297fdf39b5)
