@@ -18,7 +18,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 
 		<summary>Find what a solution import will overwrite.</summary>
-		<description>"Compare solutions across environments and review conflicts before you import. Shows conflicts, components that will be added, and components that exist only in the current environment for forms, views, fields, web resources, plugins, workflows and BPFs.</description>
+		<description>Compare solutions across environments and review conflicts before you import. Shows conflicts, components that will be added, and components that exist only in the current environment for forms, views, fields, web resources, plugins, workflows and BPFs.</description>		
 		<releaseNotes>First release.</releaseNotes>
 		<copyright>Copyright (c) 2026 Hameed Hassan</copyright>
 
