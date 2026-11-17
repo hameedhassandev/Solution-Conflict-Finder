@@ -7,10 +7,7 @@ Solution Conflict Finder compares two Dynamics 365 / Dataverse solutions, either
 It ships in two forms that share the same comparison engine:
 
 - **XrmToolBox plugin**: opens inside XrmToolBox and uses your saved connections.
-- **Desktop app** (`SolutionConflictFinder.exe`): a stand-alone Windows app where you type the URL, user name and password.
 
-<!-- [![NuGet](https://img.shields.io/nuget/v/HameedHassan.SolutionConflictFinder)](https://www.nuget.org/packages/HameedHassan.SolutionConflictFinder) -->
-<!-- Uncomment the badge above after the package is published on nuget.org. -->
 
 ---
 
@@ -22,7 +19,6 @@ It ships in two forms that share the same comparison engine:
 - [How to read the results](#how-to-read-the-results)
 - [Requirements](#requirements)
 - [Install and use: XrmToolBox plugin](#install-and-use-xrmtoolbox-plugin)
-- [Install and use: desktop app](#install-and-use-desktop-app)
 - [How it works](#how-it-works)
 - [Project structure](#project-structure)
 - [Build from source](#build-from-source)
@@ -49,13 +45,13 @@ Throughout the tool:
 ## Screenshots
 
 <!-- Add your own screenshots to docs/images and keep these lines. -->
-<img width="1600" height="841" alt="image1" src="https://github.com/user-attachments/assets/f4b263a8-31a8-4e8c-938e-956565e59d16" />
-<img width="1600" height="842" alt="image2" src="https://github.com/user-attachments/assets/3fcaff29-07a1-4aa5-961e-b9fd75f81c7c" />
-<img width="1600" height="819" alt="image3" src="https://github.com/user-attachments/assets/162fdc1d-0e84-4102-b58d-44297fdf39b5" />
-<img width="1600" height="817" alt="image4" src="https://github.com/user-attachments/assets/6e3b13e5-6ac7-448c-b585-159624e60881" />
-<img width="1600" height="755" alt="image5" src="https://github.com/user-attachments/assets/07c97df6-4acc-4e68-8c73-00e2be554b43" />
-<img width="1600" height="822" alt="image6" src="https://github.com/user-attachments/assets/5ebf33f4-ee8b-496a-a420-5000030d3714" />
-<img width="1600" height="852" alt="image7" src="https://github.com/user-attachments/assets/9c13f453-85c9-4d2a-8857-727401552a44" />
+![Screenshot 1](https://github.com/user-attachments/assets/f4b263a8-31a8-4e8c-938e-956565e59d16)
+![Screenshot 2](https://github.com/user-attachments/assets/3fcaff29-07a1-4aa5-961e-b9fd75f81c7c)
+![Screenshot 3](https://github.com/user-attachments/assets/162fdc1d-0e84-4102-b58d-44297fdf39b5)
+![Screenshot 4](https://github.com/user-attachments/assets/6e3b13e5-6ac7-448c-b585-159624e60881)
+![Screenshot 5](https://github.com/user-attachments/assets/07c97df6-4acc-4e68-8c73-00e2be554b43)
+![Screenshot 6](https://github.com/user-attachments/assets/5ebf33f4-ee8b-496a-a420-5000030d3714)
+![Screenshot 7](https://github.com/user-attachments/assets/9c13f453-85c9-4d2a-8857-727401552a44)
 
 
 ---
@@ -138,28 +134,6 @@ Or manually, for testing:
 3. Choose a solution in each box. You can type to filter the list.
 4. Press **Compare**. Large solutions can take a few minutes. Both environments are read at the same time.
 
----
-
-## Install and use: desktop app
-
-### Install
-
-1. Download the latest zip from the [Releases](../../releases) page.
-2. Right-click the zip, choose **Properties**, tick **Unblock**, and click OK.
-3. Extract the **whole folder** to a local drive, for example `C:\Tools\SolutionConflictFinder`. Keep all files together.
-4. Run `SolutionConflictFinder.exe`. No installer and no administrator rights are needed.
-
-Windows may show a SmartScreen warning because the exe is not code-signed: click **More info**, then **Run anyway**.
-
-### Use
-
-1. In the **Current environment** box enter the URL (for example `https://crm.company.com/OrgName`), user name (`DOMAIN\user`) and password, press **Connect**, and choose a solution.
-2. Do the same in the **Incoming environment** box.
-3. Press **Compare**.
-
-Your URLs and user names are remembered in `%AppData%\SolutionConflictFinder\settings.txt`. **Passwords are never saved.**
-
-The desktop app signs in with user name and password (on-premises and IFD style). For environments that require multi-factor authentication, use the XrmToolBox plugin instead.
 
 ---
 
@@ -217,19 +191,7 @@ The XrmToolBox plugin deliberately has its **own copy** of the results screen an
 
 To test the plugin locally, close XrmToolBox and build `SolutionComponentsAnalyzer.XrmToolBox`. After every build it copies the plugin DLL and `SolutionComponentsAnalyzer.Core.dll` into your XrmToolBox Plugins folder (see the install layout above). To turn that off:
 
-```powershell
-dotnet build -p:DeployToXrmToolBox=false
-```
 
-**Package the desktop app for your team**
-
-```powershell
-.\publish.ps1 -Version 1.0.0
-```
-
-This builds in Release and creates `dist\SolutionConflictFinder-1.0.0.zip`, containing the exe, its config file, the DLLs and a short README for users.
-
----
 
 ## Publishing
 
@@ -237,7 +199,7 @@ The XrmToolBox plugin is distributed through NuGet and the XrmToolBox Tool Libra
 
 ```powershell
 cd SolutionComponentsAnalyzer.XrmToolBox\Package
-.\pack.ps1 -Version 1.2026.10.1
+.\pack.ps1 -Version 1.2026.11.1
 ```
 
 `pack.ps1` builds in Release, checks that the DLL version equals the package version, packs the `.nupkg`, and lists its contents. Upload the package on nuget.org, wait for it to be indexed, then register the package id on the XrmToolBox portal. Versions follow the XrmToolBox convention `1.YYYY.M.revision`.
