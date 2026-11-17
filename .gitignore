@@ -7,4 +7,4 @@ obj/
 /SolutionComponentsAnalyzer.XrmToolBox/Package/SolutionConflictFinder.nuspec
 /SolutionComponentsAnalyzer.XrmToolBox/Package/out/HameedHassan.SolutionConflictFinder.1.2026.11.1.nupkg
 dist/
-packages/
+/SolutionComponentsAnalyzer.XrmToolBox/Package/out/HameedHassan.SolutionConflictFinder.1.2026.11.2.nupkg
