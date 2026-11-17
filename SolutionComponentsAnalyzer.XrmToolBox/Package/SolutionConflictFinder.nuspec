@@ -12,14 +12,13 @@
 		<projectUrl>https://github.com/hameedhassandev/Solution-Conflict-Finder</projectUrl>
 		<repository type="git" url="https://github.com/hameedhassandev/Solution-Conflict-Finder.git" branch="master" />
 		<iconUrl>https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/SolutionComponentsAnalyzer.XrmToolBox/Package/icon.png</iconUrl>
-		<icon>images\icon.png</icon>
 
 		<license type="expression">MIT</license>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 
 		<summary>Find what a solution import will overwrite.</summary>
-		<description>Compare solutions across environments and review conflicts before you import. Shows conflicts, components that will be added, and components that exist only in the current environment for forms, views, fields, web resources, plugins, workflows and BPFs.</description>		
-		<releaseNotes>First release.</releaseNotes>
+		<description>Compare solutions across environments and review conflicts before you import. Shows conflicts, components that will be added, and components that exist only in the current environment for forms, views, fields, web resources, plugins, workflows and BPFs.</description>
+		<releaseNotes>Fix package icon so the XrmToolBox Tool Library accepts it.</releaseNotes>
 		<copyright>Copyright (c) 2026 Hameed Hassan</copyright>
 
 		<tags>XrmToolBox SolutionConflictFinder Dataverse Dynamics365 Solution Compare</tags>
@@ -35,7 +34,6 @@
 		<!-- Only our files. NO Microsoft.Xrm.Sdk / CRM SDK DLLs: XrmToolBox already has them. -->
 		<file src="$bin$\SolutionComponentsAnalyzer.XrmToolBox.dll" target="lib\net48\Plugins" />
 		<file src="$bin$\SolutionComponentsAnalyzer.Core.dll" target="lib\net48\Plugins\SolutionComponentsAnalyzer.XrmToolBox" />
-		<file src="$here$\icon.png" target="images\" />
 		<file src="$here$\..\..\README.md" target="README.md" />
 	</files>
 </package>
