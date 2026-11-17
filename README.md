@@ -45,15 +45,13 @@ Throughout the tool:
 ## Screenshots
 
 <!-- Add your own screenshots to docs/images and keep these lines. -->
-https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image1.jpg
-![Screenshot 1](https://github.com/user-attachments/assets/f4b263a8-31a8-4e8c-938e-956565e59d16)
-![Screenshot 2](https://github.com/user-attachments/assets/3fcaff29-07a1-4aa5-961e-b9fd75f81c7c)
-![Screenshot 3](https://github.com/user-attachments/assets/162fdc1d-0e84-4102-b58d-44297fdf39b5)
-![Screenshot 4](https://github.com/user-attachments/assets/6e3b13e5-6ac7-448c-b585-159624e60881)
-![Screenshot 5](https://github.com/user-attachments/assets/07c97df6-4acc-4e68-8c73-00e2be554b43)
-![Screenshot 6](https://github.com/user-attachments/assets/5ebf33f4-ee8b-496a-a420-5000030d3714)
-![Screenshot 7](https://github.com/user-attachments/assets/9c13f453-85c9-4d2a-8857-727401552a44)
-
+![Screenshot 1](https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image1.jpg)
+![Screenshot 2](https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image2.jpg)
+![Screenshot 3](https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image3.jpg)
+![Screenshot 4](https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image4.jpg)
+![Screenshot 5](https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image5.jpg)
+![Screenshot 6](https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image6.jpg)
+![Screenshot 7](https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/docs/images/image7.jpg)
 
 ---
 
