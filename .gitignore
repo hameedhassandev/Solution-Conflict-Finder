@@ -5,3 +5,4 @@ obj/
 *.suo
 /publish.ps1
 /SolutionComponentsAnalyzer.XrmToolBox/Package/SolutionConflictFinder.nuspec
+/SolutionComponentsAnalyzer.XrmToolBox/Package/out/HameedHassan.SolutionConflictFinder.1.2026.11.1.nupkg
