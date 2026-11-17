@@ -24,6 +24,8 @@
 
 		<tags>XrmToolBox SolutionConflictFinder Dataverse Dynamics365 Solution Compare</tags>
 
+		<readme>README.md</readme>
+		
 		<dependencies>
 			<dependency id="XrmToolBox" version="$xtb$" />
 		</dependencies>
@@ -34,5 +36,6 @@
 		<file src="$bin$\SolutionComponentsAnalyzer.XrmToolBox.dll" target="lib\net48\Plugins" />
 		<file src="$bin$\SolutionComponentsAnalyzer.Core.dll" target="lib\net48\Plugins\SolutionComponentsAnalyzer.XrmToolBox" />
 		<file src="$here$\icon.png" target="images\" />
+		<file src="$here$\..\..\README.md" target="README.md" />
 	</files>
 </package>
