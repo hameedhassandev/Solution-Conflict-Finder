@@ -4,7 +4,7 @@
 #   .\pack.ps1 -Push -ApiKey YOUR_NUGET_KEY      (also publish to nuget.org)
 #   .\pack.ps1 -Version 1.2026.11.1              (next release)
 param(
-    [string]$Version = "1.2026.11.2",
+    [string]$Version = "1.2026.11.3",
     [string]$PackageId = "HameedHassan.SolutionConflictFinder",   # must be UNIQUE on nuget.org: change it if taken
     [string]$XrmToolBoxVersion = "1.2025.10.74",                  # XrmToolBox version you built against (check nuget.org/packages/XrmToolBox)
     [switch]$Push,

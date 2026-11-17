@@ -11,8 +11,8 @@
 
 		<projectUrl>https://github.com/hameedhassandev/Solution-Conflict-Finder</projectUrl>
 		<repository type="git" url="https://github.com/hameedhassandev/Solution-Conflict-Finder.git" branch="master" />
-		<icon>https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/SolutionComponentsAnalyzer.XrmToolBox/Package/icon.png</icon>
-
+		<iconUrl>https://raw.githubusercontent.com/hameedhassandev/Solution-Conflict-Finder/master/SolutionComponentsAnalyzer.XrmToolBox/Package/icon.png</iconUrl>
+		
 		<license type="expression">MIT</license>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 

@@ -6,6 +6,8 @@ obj/
 /publish.ps1
 /SolutionComponentsAnalyzer.XrmToolBox/Package/SolutionConflictFinder.nuspec
 /SolutionComponentsAnalyzer.XrmToolBox/Package/out/HameedHassan.SolutionConflictFinder.1.2026.11.1.nupkg
-dist/
 /SolutionComponentsAnalyzer.XrmToolBox/Package/out/HameedHassan.SolutionConflictFinder.1.2026.11.2.nupkg
+/SolutionComponentsAnalyzer.XrmToolBox/Package/out/HameedHassan.SolutionConflictFinder.1.2026.11.3.nupkg
+dist/
 packages/
+/SolutionComponentsAnalyzer.XrmToolBox/Package/out/HameedHassan.SolutionConflictFinder.1.2026.11.3.nupkg
